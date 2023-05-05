@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Flex,
-  Box,
   Divider,
-  Center,
   Spacer,
-  Button,
   ButtonGroup,
   IconButton,
   Image
 } from '@chakra-ui/react';
 import logo from '../assets/logo.png';
-import { FiShoppingBag, FiHome, FiLogOut, FiUser } from "react-icons/fi";
+import { FiLogOut, FiUser } from "react-icons/fi";
 import { FaStore, FaShoppingCart, FaHome } from "react-icons/fa";
 
 
